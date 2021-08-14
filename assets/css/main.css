@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		color: #000000;
+		border-bottom: dotted 1px rgba(5, 130, 197, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #0582C5 !important;
 		}
 
 	strong, b {
@@ -3208,7 +3208,7 @@ input, select, textarea {
 			}
 
 				#footer > .inner .copyright a {
-					color: inherit;
+					color: black;
 				}
 
 				#footer > .inner .copyright li {
