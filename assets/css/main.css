@@ -151,7 +151,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+<<<<<<< HEAD
 			color: #0582C5 !important;
+=======
+			color: #000000 !important;
+>>>>>>> e1f0408304b1cd98c38e552cf1bdfb1253456c95
 		}
 
 	strong, b {
@@ -2275,8 +2279,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #0582C5;
+			box-shadow: 0 0 0 1px #0582C5;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2706,27 +2710,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #ffca60;
+				background-color: #0582C5;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #48bcff;
+				background-color: #0582C5;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #828b8a;
+				background-color: #0582C5;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #ffca60;
+				background-color: #0582C5;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #48bcff;
+				background-color: #0582C5;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #0582C5;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3093,6 +3097,9 @@ input, select, textarea {
 
 			#menu > .close:hover:after {
 				opacity: 0;
+			}
+			.menu:hover{
+				color: #585858;
 			}
 
 		@media screen and (max-width: 736px) {
